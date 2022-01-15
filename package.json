@@ -1,0 +1,14 @@
+{
+  "name": "react-native-toast-message-framework",
+  "version": "1.0.0",
+  "description": "Simply but easy to extended toast frame, written in pure JavaScript. It can used on both iOS and Android.",
+  "main": "src/message.js",
+  "author": "Wentao Lyu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.66.4",
+    "react-native-uuid": "^2.0.1"
+  }
+}
