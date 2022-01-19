@@ -887,10 +887,10 @@
   resolved "https://registry.npm.taobao.org/@react-native/assets/download/@react-native/assets-1.0.0.tgz#c6f9bf63d274bafc8e970628de24986b30a55c8e"
   integrity sha1-xvm/Y9J0uvyOlwYo3iSYazClXI4=
 
-"@react-native/normalize-color@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.nlark.com/@react-native/normalize-color/download/@react-native/normalize-color-1.0.0.tgz#c52a99d4fe01049102d47dc45d40cbde4f720ab6"
-  integrity sha1-xSqZ1P4BBJEC1H3EXUDL3k9yCrY=
+"@react-native/normalize-color@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.nlark.com/@react-native/normalize-color/download/@react-native/normalize-color-2.0.0.tgz#da955909432474a9a0fe1cbffc66576a0447f567"
+  integrity sha1-2pVZCUMkdKmg/hy//GZXagRH9Wc=
 
 "@react-native/polyfills@2.0.0":
   version "2.0.0"
@@ -3255,7 +3255,7 @@ prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.npmmirror.com/prop-types/download/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -3277,10 +3277,10 @@ range-parser@~1.2.1:
   resolved "https://registry.nlark.com/range-parser/download/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=
 
-react-devtools-core@^4.13.0:
-  version "4.22.1"
-  resolved "https://registry.npmmirror.com/react-devtools-core/download/react-devtools-core-4.22.1.tgz#b276d42f860bedc373c9b3c0f5f96734318dd453"
-  integrity sha512-pvpNDHE7p0FtcCmIWGazoY8LLVfBI9sw0Kf10kdHhPI9Tzt3OG/qEt16GrAbE0keuna5WzX3r1qPKVjqOqsuUg==
+react-devtools-core@4.19.1:
+  version "4.19.1"
+  resolved "https://registry.npmmirror.com/react-devtools-core/download/react-devtools-core-4.19.1.tgz#bc37c2ef2f48f28c6af4c7292be9dca1b63deace"
+  integrity sha1-vDfC7y9I8oxq9McpK+ncobY96s4=
   dependencies:
     shell-quote "^1.6.1"
     ws "^7"
@@ -3295,10 +3295,10 @@ react-is@^17.0.1:
   resolved "https://registry.npmmirror.com/react-is/download/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
-react-native-codegen@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.npmmirror.com/react-native-codegen/download/react-native-codegen-0.0.7.tgz#86651c5c5fec67a8077ef7f4e36f7ed459043e14"
-  integrity sha1-hmUcXF/sZ6gHfvf0429+1FkEPhQ=
+react-native-codegen@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.npmmirror.com/react-native-codegen/download/react-native-codegen-0.0.8.tgz#b7796a54074139d956fff2862cf1285db43c891b"
+  integrity sha1-t3lqVAdBOdlW//KGLPEoXbQ8iRs=
   dependencies:
     flow-parser "^0.121.0"
     jscodeshift "^0.11.0"
@@ -3309,17 +3309,17 @@ react-native-uuid@^2.0.1:
   resolved "https://registry.npm.taobao.org/react-native-uuid/download/react-native-uuid-2.0.1.tgz#ed4e2dfb1683eddb66967eb5dca140dfe1abddb9"
   integrity sha1-7U4t+xaD7dtmln613KFA3+Gr3bk=
 
-react-native@^0.66.4:
-  version "0.66.4"
-  resolved "https://registry.npmmirror.com/react-native/download/react-native-0.66.4.tgz#bf89a5fb18bd23046d889fb4de4ea2822a4d7805"
-  integrity sha512-9vx5dlSfQlKbbDtr8+xMon6qsmSu7jvjdXWZpEKh3XVKpUidbbODv7048gwVKX8YAel1egeR7hN8vzSeI6ssTw==
+"react-native@>=0.59.0-rc.0 <1.0.x":
+  version "0.67.0"
+  resolved "https://registry.npmmirror.com/react-native/download/react-native-0.67.0.tgz#401c0ab75566f1086ad194ef9c3e4551c10c14e5"
+  integrity sha512-LTrLbZhapgsF0J1fgKvkMVealNKVZ+Fp3XWVFHWmglVQvdmALdcafZR2Plvhe9IH8KJddj3LAU9nV3rHot7q4Q==
   dependencies:
     "@jest/create-cache-key-function" "^27.0.1"
     "@react-native-community/cli" "^6.0.0"
     "@react-native-community/cli-platform-android" "^6.0.0"
     "@react-native-community/cli-platform-ios" "^6.0.0"
     "@react-native/assets" "1.0.0"
-    "@react-native/normalize-color" "1.0.0"
+    "@react-native/normalize-color" "2.0.0"
     "@react-native/polyfills" "2.0.0"
     abort-controller "^3.0.0"
     anser "^1.4.9"
@@ -3328,7 +3328,6 @@ react-native@^0.66.4:
     hermes-engine "~0.9.0"
     invariant "^2.2.4"
     jsc-android "^250230.2.1"
-    metro-babel-register "0.66.2"
     metro-react-native-babel-transformer "0.66.2"
     metro-runtime "0.66.2"
     metro-source-map "0.66.2"
@@ -3336,8 +3335,8 @@ react-native@^0.66.4:
     pretty-format "^26.5.2"
     promise "^8.0.3"
     prop-types "^15.7.2"
-    react-devtools-core "^4.13.0"
-    react-native-codegen "^0.0.7"
+    react-devtools-core "4.19.1"
+    react-native-codegen "^0.0.8"
     react-refresh "^0.4.0"
     regenerator-runtime "^0.13.2"
     scheduler "^0.20.2"
@@ -3351,13 +3350,14 @@ react-refresh@^0.4.0:
   resolved "https://registry.npmmirror.com/react-refresh/download/react-refresh-0.4.3.tgz#966f1750c191672e76e16c2efa569150cc73ab53"
   integrity sha1-lm8XUMGRZy524Wwu+laRUMxzq1M=
 
-react@^17.0.2:
-  version "17.0.2"
-  resolved "https://registry.npmmirror.com/react/download/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
-  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+react@^16.8.1:
+  version "16.14.0"
+  resolved "https://registry.npmmirror.com/react/download/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 readable-stream@~2.3.6:
   version "2.3.7"
