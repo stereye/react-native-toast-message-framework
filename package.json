@@ -1,8 +1,12 @@
 {
-  "name": "react-native-toast-message-framework",
-  "version": "1.0.0",
+  "name": "@stereye/react-native-toast-message-framework",
+  "version": "1.0.1",
   "description": "Simply but easy to extended toast frame, written in pure JavaScript. It can used on both iOS and Android.",
   "main": "src/message.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.stereye.tech/polar/third-party/react-native-toast-message-framework.git"
+  },
   "author": "Wentao Lyu",
   "license": "MIT",
   "private": true,
