@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext, Platform } from 'react'
-import { Text, View, UIManager, LayoutAnimation } from 'react-native'
+import React, { useState, useEffect, useContext } from 'react'
+import { Text, View, UIManager, LayoutAnimation, Platform } from 'react-native'
 import uuid from 'react-native-uuid'
 
 import DefaultMessageComponent from './DefaultMessageComponent'
