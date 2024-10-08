@@ -5,7 +5,7 @@
   "main": "src/message.js",
   "repository": {
     "type": "git",
-    "url": "https://git.stereye.tech/polar/third-party/react-native-toast-message-framework.git"
+    "url": "https://github.com/stereye/react-native-toast-message-framework.git"
   },
   "author": "Wentao Lyu",
   "license": "MIT",
